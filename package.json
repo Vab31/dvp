@@ -1,0 +1,23 @@
+{
+  "name": "pro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "next": "15.2.3",
+    "react": "^19.0.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4"
+  }
+}
