@@ -129,11 +129,11 @@ const HeroSlider = () => {
             <img
               src={slide.src}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover bg-black opacity-60"
+              className="w-full h-full object-cover  opacity-60"
             />
             {/* Overlay Text */}
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6">
-              <h2 className="text-black  text-3xl md:text-5xl font-extrabold drop-shadow-lg">
+              <h2 className="text-white  text-3xl md:text-5xl font-extrabold drop-shadow-lg">
                 {slide.text}
               </h2>
             </div>

@@ -41,7 +41,7 @@ export default function Counter() {
       }, []);
 
   return (
-    <div className="text-4xl ">
+    <div className="text-4xl  bg-white">
       
       <section class="text-gray-600 body-font">
   <div class="container px-5 py-20 mx-auto">
