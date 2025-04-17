@@ -21,7 +21,7 @@ export default function Nav() {
         <nav className="flex flex-wrap items-center text-base justify-center md:justify-start w-full md:w-auto">
           <a className="mr-5 hover:text-gray-900" href="/home">Home</a>
           <a className="mr-5 hover:text-gray-900" href="/us">About Us</a>
-          <a className="mr-5 hover:text-gray-900" href="/reel">Conference Clips</a>
+          <a className="mr-5 hover:text-gray-900" href="/reel">Conference</a>
           <a className="mr-5 hover:text-gray-900" href="/journal">Journal</a>
         </nav>
       </div>

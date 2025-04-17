@@ -62,14 +62,14 @@ export default function Reels() {
                   systems, this conversation uncovers what it truly means to
                   seek safety in a country that’s both welcoming and complex.
                 </p>
-                <div className="flex justify-center">
+                {/* <div className="flex justify-center">
                   <button
                     className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                     onClick={handleWatch}
                   >
-                    Watch More
+                    Watch 
                   </button>
-                </div>
+                </div> */}
               </div>
               <div className="w-full md:w-1/2 flex justify-center">
                 <div
@@ -80,7 +80,7 @@ export default function Reels() {
                   }}
                 >
                   <iframe
-                    src="https://player.vimeo.com/video/1076014746?h=66a0eda7db&badge=0&autopause=0&player_id=0&app_id=58479"
+                    src="https://player.vimeo.com/video/1075999096?h=345c713c19&badge=0&autopause=0&player_id=0&app_id=58479"
                     frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                     style={{
