@@ -17,8 +17,8 @@ export default function Whyitmatter() {
   
         <div className="flex flex-wrap justify-center">
           {/* Card 1 */}
-          <div className="p-2 md:w-1/3 flex flex-col text-center items-center ">
-            <div className="bg-gray-200 border-2 shadow-2xl p-3 rounded">
+          <div className="p-2 lg:w-1/3 sm:w-1/2 w-full  flex flex-col text-center items-center ">
+            <div className="bg-gray-200 border-2 shadow-2xl p-3 rounded ">
               <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
                 {/* Icon */}
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
@@ -37,7 +37,7 @@ export default function Whyitmatter() {
                 </svg>
               </div>
               <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Increased Awareness</h2>
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3 ">Increased Awareness</h2>
                 <p className="leading-relaxed text-base">
                   Amplifying refugee voices educates the public on the realities of displacement.
                 </p>
@@ -46,7 +46,7 @@ export default function Whyitmatter() {
           </div>
   
           {/* Card 2 */}
-          <div className="p-2 md:w-1/3 flex flex-col text-center items-center">
+          <div className="p-2 lg:w-1/3 sm:w-1/2 w-full flex flex-col text-center items-center">
           <div className="bg-gray-200 border-2 shadow-2xl p-3 rounded">
             <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
@@ -70,7 +70,7 @@ export default function Whyitmatter() {
           </div>
   
           {/* Card 3 */}
-          <div className="p-2 md:w-1/3 flex flex-col text-center items-center ">
+          <div className="p-2 lg:w-1/3 sm:w-1/2 w-full flex flex-col text-center items-center ">
             <div className='bg-gray-200 p-3 rounded border-2 shadow-2xl'>
             <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
@@ -86,7 +86,7 @@ export default function Whyitmatter() {
             <div className="flex-grow">
               <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Empowerment and Change</h2>
               <p className="leading-relaxed text-base">
-                Inspiring action and advocacy to create positive change in policies and attitudes.
+                Inspiring action to create positive change in policies and attitudes.
               </p>
             </div>
             </div>

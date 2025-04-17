@@ -51,7 +51,7 @@ export default function Counter() {
             
           <CountUp end={emailCount} duration={2} />+
         </h2>
-        <p class="leading-relaxed">Number Of Unique Visitor</p>
+        <p class="leading-relaxed sm:text-3xl text-2xl">Number Of Unique Visitor</p>
       </div>
     </div>
   </div>

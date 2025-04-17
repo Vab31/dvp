@@ -53,7 +53,7 @@ export default function Reels() {
   <section className="text-gray-600 bg-gray-200 body-font" data-aos="fade-right">
   <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-5 py-24">
     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-12 md:mb-0">
-      <h1 className="title-font text-3xl sm:text-4xl mb-4 font-bold text-gray-900">
+      <h1 className="title-font text-3xl sm:text-4xl sm:mb-4 my-2 font-bold text-gray-900">
       Displaced Voice Network 
         <br className="hidden lg:inline-block" />
         Series-1
