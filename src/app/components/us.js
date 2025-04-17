@@ -16,12 +16,7 @@ export default function Us() {
             <h1 className="text-white text-4xl sm:text-6xl font-bold mb-4">
               "Everyone Deserves Peace"
             </h1>
-            <p className="text-white text-lg sm:text-xl max-w-2xl mx-auto">
-              Let me know which tone you're aiming for—whether it's emotional to
-              touch hearts, hopeful to inspire change, or powerful to spark
-              action—and I can provide more tailored options that match your
-              message perfectly.
-            </p>
+     
           </div>
         </div>
       </div>
@@ -39,12 +34,11 @@ export default function Us() {
     </div>
     <div> */}
       <p className="font-medium my-4 text-xl mx-4 sm:mx-10 md:mx-20 lg:mx-28 xl:mx-36 leading-relaxed text-center text-gray-900">
-        Displaced Voices is a documentation platform born from the journeys of
-        refugees who have overcome immense challenges in cross border migration.
-        Through our platform, we share their powerful narratives—of resilience,
-        leadership, and transformation. Each episode offers a unique lens into
-        the lived experiences behind the title, fostering empathy,
-        understanding, and inspiration across borders.{" "}
+      We are a platform dedicated to raising awareness about the real-life struggles and strength of refugees. Our mission is to build empathy, spark important conversations, and drive action toward a more inclusive and supportive society.
+
+Through our podcast, we bring together a diverse range of voices—from refugees who share their personal journeys, to activists, social workers, and policymakers who are actively working to improve refugee welfare. These conversations not only shed light on the challenges faced by displaced communities but also explore practical solutions and policies that can help uplift them.
+
+By amplifying these stories, we aim to inspire change, promote understanding, and contribute to the global movement for refugee rights and dignity.{" "}
       </p>
 
       {/* </div> */}

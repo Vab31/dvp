@@ -77,11 +77,9 @@ export default function Fullv() {
 
           <div className="w-full md:w-2/3 text-center">
             <h1 className="title-font text-2xl sm:text-3xl md:text-4xl font-medium text-gray-900 mb-4">
-              Displaced Voice Network Series-1
-            </h1>
+            Advocating for Refugee Rights in Thailand: Tanyakorn Thippayapokin, Asylum Access Thailand Coordinator            </h1>
             <p className="mb-8 text-base sm:text-lg leading-relaxed">
-              Today I'm going to be asking you some questions about your journey — your brand, your work with refugees, and your collaboration with Asylum Access Thailand.
-            </p>
+            In this deeply moving episode of Displaced Voice Network, Saira sits down with Tanyakorn Thippayapokin to discuss the multifaceted journey of refugee rights and welfare in Thailand. From policies and legal gaps to grassroots support systems, this conversation uncovers what it truly means to seek safety in a country that’s both welcoming and complex.            </p>
           </div>
         </div>
       </section>

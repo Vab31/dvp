@@ -12,7 +12,7 @@ export default function Home() {
   <Nav/>
   <HeroSlider/>
   <Whyitmatter/>
-  <Counter/>
+  {/* <Counter/> */}
   <Reels/>
   <Footer/>
  </div>
