@@ -4,7 +4,7 @@ export default function Us() {
   return (
     <div>
       <div
-        className="relative h-80 w-full  bg-cover bg-center"
+        className="relative h-80 w-full  bg-cover bg-center bg-white"
         style={{ backgroundImage: "url('/images/usimg.jpeg')" }}
       >
         {/* Black overlay */}

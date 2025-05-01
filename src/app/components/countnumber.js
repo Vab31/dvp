@@ -49,7 +49,7 @@ export default function Counter() {
       <div class="p-4  bg-gray-50 border-2 shadow-2xl rounded-2xl">
         <h2 class="title-font font-medium sm:text-3xl text-2xl text-gray-900 ">
             
-          <CountUp end={emailCount} duration={2} />+
+          <CountUp end={53} duration={2} />+
         </h2>
         <p class="leading-relaxed sm:text-3xl text-2xl">Number Of Unique Visitor</p>
       </div>
