@@ -41,28 +41,28 @@ export default function Reels() {
 
   return (
     <div>
-  
-        <div>
-          {/* Section 1 */}
-          <section
-            className="text-gray-600 bg-gray-200 body-font"
-            data-aos="fade-right"
-          >
-            <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-5 py-24">
-              <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-12 md:mb-0">
-                <h1 className="title-font text-2xl sm:text-3xl sm:mr-2 mr-0 sm:mb-4 my-2 font-bold text-gray-900">
-                Advocating for Refugee Rights in Thailand: Tanyakorn Thippayapokin | Asylum Access Thailand Coordinator 
-                  <br className="hidden lg:inline-block" />
-                </h1>
-                <p className="mb-8 leading-relaxed">
-                  In this deeply moving episode of Displaced Voice Network,
-                  Saira sits down with Tanyakorn Thippayapokin to discuss the
-                  multifaceted journey of refugee rights and welfare in
-                  Thailand. From policies and legal gaps to grassroots support
-                  systems, this conversation uncovers what it truly means to
-                  seek safety in a country that’s both welcoming and complex.
-                </p>
-                {/* <div className="flex justify-center">
+      <div>
+        {/* Section 1 */}
+        <section
+          className="text-gray-600 bg-gray-200 body-font"
+          data-aos="fade-right"
+        >
+          <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-5 py-24">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-12 md:mb-0">
+              <h1 className="title-font text-2xl sm:text-3xl sm:mr-2 mr-0 sm:mb-4 my-2 font-bold text-gray-900">
+                Advocating for Refugee Rights in Thailand: Tanyakorn
+                Thippayapokin | Asylum Access Thailand Coordinator
+                <br className="hidden lg:inline-block" />
+              </h1>
+              <p className="mb-8 leading-relaxed">
+                In this deeply moving episode of Displaced Voice Network, Saira
+                sits down with Tanyakorn Thippayapokin to discuss the
+                multifaceted journey of refugee rights and welfare in Thailand.
+                From policies and legal gaps to grassroots support systems, this
+                conversation uncovers what it truly means to seek safety in a
+                country that’s both welcoming and complex.
+              </p>
+              {/* <div className="flex justify-center">
                   <button
                     className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                     onClick={handleWatch}
@@ -70,35 +70,35 @@ export default function Reels() {
                     Watch 
                   </button>
                 </div> */}
-              </div>
-              <div className="w-full md:w-1/2 flex justify-center">
-                <div
+            </div>
+            <div className="w-full md:w-1/2 flex justify-center">
+              <div
+                style={{
+                  padding: "56.25% 0 0 0",
+                  position: "relative",
+                  width: "100%",
+                }}
+              >
+                <iframe
+                  src="https://player.vimeo.com/video/1075999096?h=345c713c19&badge=0&autopause=0&player_id=0&app_id=58479"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                   style={{
-                    padding: "56.25% 0 0 0",
-                    position: "relative",
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
                     width: "100%",
+                    height: "100%",
                   }}
-                >
-                  <iframe
-                    src="https://player.vimeo.com/video/1075999096?h=345c713c19&badge=0&autopause=0&player_id=0&app_id=58479"
-                    frameBorder="0"
-                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      width: "100%",
-                      height: "100%",
-                    }}
-                    title="intro"
-                  />
-                </div>
+                  title="intro"
+                />
               </div>
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Section 2 (Reversed layout) */}
-          {/* <section className="text-gray-600 body-font" data-aos="fade-left">
+        {/* Section 2 (Reversed layout) */}
+        {/* <section className="text-gray-600 body-font" data-aos="fade-left">
     <div className="container mx-auto flex flex-col md:flex-row items-center px-5 py-24">
       <div className="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
         <iframe
@@ -129,8 +129,85 @@ export default function Reels() {
       </div>
     </div>
   </section> */}
+      </div>
+
+      {/* left */}
+
+      <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              {" "}
+              {/* 16:9 Aspect Ratio */}
+              <iframe
+                src="https://drive.google.com/file/d/1A0gF1k4-eC_m9Edo8KSrivFX9SCJdtix/preview"
+                allow="autoplay"
+                className="absolute top-0 left-0 w-full h-full rounded"
+                title="Google Drive Video"
+              ></iframe>
+            </div>
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              Championing Human Rights Through Law: Arundhati Tadkod | Catalyst
+              For Change Fellow at Migration & Asylum Project (MAP)
+              {/* <br className="hidden lg:inline-block" />readymade gluten */}
+            </h1>
+            <p className="mb-8 leading-relaxed">
+              Arundhati Tadkod is a Catalyst for Change Fellow at the Migration
+              & Asylum Project (MAP), with experience in refugee law, civil and
+              criminal litigation, human rights advocacy, and education. Her
+              diverse background reflects a deep commitment to social justice,
+              legal empowerment, and community impact.
+            </p>
+            <div className="flex justify-center">
+       
+            </div>
+          </div>
         </div>
-  
+      </section>
+
+
+      <section className="text-gray-600 body-font bg-white" data-aos="fade-right">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    {/* TEXT SECTION - LEFT SIDE */}
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        Building Resilient Futures for Refugees and Youth:
+       
+       Gavin David White
+      </h1>
+      <p className="mb-8 leading-relaxed">
+        Gavin David White is a humanitarian and social impact professional with
+        over 20 years of experience working across Asia, the Middle East,
+        Africa, and Latin America. He currently serves as UNHCR’s Inter-Agency
+        Coordination Lead for Asia and the Pacific, guiding governments and
+        NGOs in strengthening crisis preparedness, refugee protection, and
+        emergency response systems. <br /> <br />
+       
+      </p>
+      <div className="flex justify-center"></div>
+    </div>
+
+    {/* VIDEO SECTION - RIGHT SIDE */}
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+      <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+        {/* 16:9 Aspect Ratio */}
+        <iframe
+          src="https://drive.google.com/file/d/1hchcZLQCpv5xKhMHfTDPRGOhVipau5DE/preview"
+          // src="https://drive.google.com/file/d/1A0gF1k4-eC_m9Edo8KSrivFX9SCJdtix/preview"
+          allow="autoplay"
+          className="absolute top-0 left-0 w-full h-full rounded"
+          title="Gavin David White Video"
+        ></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
       {/* {showForm && (
   <div>
