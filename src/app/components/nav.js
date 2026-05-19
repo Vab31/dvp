@@ -22,7 +22,7 @@ export default function Nav() {
           <a className="mr-5 hover:text-gray-900" href="/home">Home</a>
           <a className="mr-5 hover:text-gray-900" href="/us">About Us</a>
           {/* <a className="mr-5 hover:text-gray-900" href="/reel">Conference</a> */}
-          <a className="mr-5 hover:text-gray-900" href="/journal">Journal</a>
+          <a className="mr-5 hover:text-gray-900" href="/journal">Essay</a>
         </nav>
       </div>
     </header>
