@@ -207,7 +207,35 @@ export default function Reels() {
 
 
 
-
+ <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              {" "}
+              {/* 16:9 Aspect Ratio */}
+              {/* https://drive.google.com/file/d/17XOtpqLCJctLjsGGPf0zGBgR8w0ABjVs/view?usp=sharing */}
+              <iframe
+                src="https://drive.google.com/file/d/17XOtpqLCJctLjsGGPf0zGBgR8w0ABjVs/preview"
+                allow="autoplay"
+                className="absolute top-0 left-0 w-full h-full rounded"
+                title="Google Drive Video"
+              ></iframe>
+            </div>
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              Beyond Borders: Building Communities Through Stories
+              {/* <br className="hidden lg:inline-block" />readymade gluten */}
+            </h1>
+            <p className="mb-8 leading-relaxed">
+              A powerful conversation on refugee integration, community building, and the human stories behind migration. Join Sreeraj Rajmohan as he shares insights from working closely with refugee communities in Europe and discusses how empathy, storytelling, and action can create lasting social impact.
+            </p>
+            <div className="flex justify-center">
+       
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* {showForm && (
   <div>
