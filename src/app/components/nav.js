@@ -22,7 +22,8 @@ export default function Nav() {
           <a className="mr-5 hover:text-gray-900" href="/home">Home</a>
           <a className="mr-5 hover:text-gray-900" href="/us">About Us</a>
           {/* <a className="mr-5 hover:text-gray-900" href="/reel">Conference</a> */}
-          <a className="mr-5 hover:text-gray-900" href="/journal">Essay</a>
+          <a className="mr-5 hover:text-gray-900" href="/journal">Whitepaper</a>
+          <a className="mr-5 hover:text-gray-900" href="/chatbot">Ask Question</a>
         </nav>
       </div>
     </header>
