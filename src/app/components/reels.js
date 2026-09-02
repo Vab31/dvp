@@ -50,17 +50,17 @@ export default function Reels() {
           <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-5 py-24">
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-12 md:mb-0">
               <h1 className="title-font text-2xl sm:text-3xl sm:mr-2 mr-0 sm:mb-4 my-2 font-bold text-gray-900">
-                Advocating for Refugee Rights in Thailand: Tanyakorn
-                Thippayapokin | Asylum Access Thailand Coordinator
+                Advocating for Marginalized Community Rights in Thailand: Tanyakorn
+                Thippayapokin | Social Justice & Community Advocacy Coordinator
                 <br className="hidden lg:inline-block" />
               </h1>
               <p className="mb-8 leading-relaxed">
                 In this deeply moving episode of Displaced Voice Network, Saira
                 sits down with Tanyakorn Thippayapokin to discuss the
-                multifaceted journey of refugee rights and welfare in Thailand.
-                From policies and legal gaps to grassroots support systems, this
-                conversation uncovers what it truly means to seek safety in a
-                country that’s both welcoming and complex.
+                multifaceted journey of marginalized community rights and welfare in Thailand.
+                From legal gaps and social barriers to grassroots support systems, this
+                conversation uncovers what it means to build safety and equity in
+                underrepresented communities.
               </p>
               {/* <div className="flex justify-center">
                   <button
@@ -150,15 +150,13 @@ export default function Reels() {
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Championing Human Rights Through Law: Arundhati Tadkod | Catalyst
-              For Change Fellow at Migration & Asylum Project (MAP)
-              {/* <br className="hidden lg:inline-block" />readymade gluten */}
+              For Change Fellow
             </h1>
             <p className="mb-8 leading-relaxed">
-              Arundhati Tadkod is a Catalyst for Change Fellow at the Migration
-              & Asylum Project (MAP), with experience in refugee law, civil and
-              criminal litigation, human rights advocacy, and education. Her
-              diverse background reflects a deep commitment to social justice,
-              legal empowerment, and community impact.
+              Arundhati Tadkod works as a Catalyst for Change Fellow, focusing on
+              civil litigation, human rights advocacy, legal empowerment, and education for
+              marginalized groups. Her diverse background reflects a deep commitment to social
+              justice, legal accessibility, and community impact across Thailand.
             </p>
             <div className="flex justify-center">
        
@@ -173,17 +171,15 @@ export default function Reels() {
     {/* TEXT SECTION - LEFT SIDE */}
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-        Building Resilient Futures for Refugees and Youth:
+        Building Resilient Futures for Marginalized Communities and Youth:
        
        Gavin David White
       </h1>
       <p className="mb-8 leading-relaxed">
         Gavin David White is a humanitarian and social impact professional with
-        over 20 years of experience working across Asia, the Middle East,
-        Africa, and Latin America. He currently serves as UNHCR’s Inter-Agency
-        Coordination Lead for Asia and the Pacific, guiding governments and
-        NGOs in strengthening crisis preparedness, refugee protection, and
-        emergency response systems. <br /> <br />
+        over 20 years of experience working across Asia. He works alongside international
+        organizations, government initiatives, and local NGOs to strengthen community
+        resilience, social protection, and youth empowerment for vulnerable populations in Thailand. <br /> <br />
        
       </p>
       <div className="flex justify-center"></div>
@@ -224,11 +220,10 @@ export default function Reels() {
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Beyond Borders: Building Communities Through Stories
-              {/* <br className="hidden lg:inline-block" />readymade gluten */}
+              Beyond Borders: Building Resilient Communities Through Stories
             </h1>
             <p className="mb-8 leading-relaxed">
-              A powerful conversation on refugee integration, community building, and the human stories behind migration. Join Sreeraj Rajmohan as he shares insights from working closely with refugee communities in Europe and discusses how empathy, storytelling, and action can create lasting social impact.
+              A powerful conversation on community integration, uplifting underrepresented populations, and the human stories behind social development. Join Sreeraj Rajmohan as he shares insights from working closely with grassroots communities and discusses how empathy, storytelling, and local action create lasting social impact.
             </p>
             <div className="flex justify-center">
        

@@ -66,7 +66,7 @@ export default function Us() {
             Our Core Belief
           </span>
           <h1 className="text-white text-4xl sm:text-6xl font-extrabold tracking-tight max-w-4xl italic leading-tight">
-            "Everyone Deserves Peace"
+            "Equal Opportunity & Dignity for All Communities"
           </h1>
           <div className="mt-6 w-20 h-1 bg-amber-500 rounded-full"></div>
         </div>
@@ -84,7 +84,7 @@ export default function Us() {
 
           {/* Subtitle / Intro Hook */}
           <p className="text-xl font-medium text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
-            We are a platform dedicated to raising awareness about the real-life struggles and strength of refugees. Our mission is to build empathy, spark important conversations, and drive action toward a more inclusive and supportive society.
+            We are a platform dedicated to raising awareness about the struggles, resilience, and rights of marginalized communities in Thailand. Our mission is to build empathy, spark meaningful dialogue, and drive action toward a more inclusive and supportive society.
           </p>
 
           <hr className="border-gray-100 my-10" />
@@ -97,7 +97,7 @@ export default function Us() {
                 Amplifying Through Media
               </h3>
               <p>
-                Through our podcast, we bring together a diverse range of voices—from refugees who share their personal journeys, to activists, social workers, and policymakers who are actively working to improve refugee welfare.
+                Through our platform and discussions, we bring together a diverse range of voices—from local community members sharing personal experiences, to grassroots activists, social workers, and policymakers actively working to uplift marginalized Thai communities.
               </p>
             </div>
             <div className="space-y-4">
@@ -106,7 +106,7 @@ export default function Us() {
                 Driving Real Change
               </h3>
               <p>
-                These conversations not only shed light on the challenges faced by displaced communities but also explore practical solutions and policies that can help uplift them. By amplifying these stories, we aim to inspire change, promote understanding, and contribute to the global movement for refugee rights and dignity.
+                These conversations shed light on structural challenges and policy gaps while exploring actionable solutions to empower underrepresented populations. By amplifying these stories, we aim to inspire action, foster understanding, and advance social justice across Thailand.
               </p>
             </div>
           </div>

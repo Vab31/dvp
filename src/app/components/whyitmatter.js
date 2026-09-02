@@ -1,101 +1,73 @@
-import React from 'react'
+import React from 'react';
 
 export default function Whyitmatter() {
+  const cards = [
+    {
+      title: "Increased Awareness",
+      description: "Amplifying marginalized voices educates the public on the lived realities, rights, and struggles of underrepresented groups in Thailand.",
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.75">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+        </svg>
+      )
+    },
+    {
+      title: "Community Solidarity",
+      description: "Connecting local advocates, partners, and communities to support and uplift marginalized populations across Thailand.",
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.75">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+      )
+    },
+    {
+      title: "Empowerment & Change",
+      description: "Inspiring collective action to create positive change in policy reform, legal access, and sustainable living conditions.",
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.75">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      )
+    }
+  ];
+
   return (
-    <div>
-    <section className="text-gray-600 body-font bg-white">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Why It Matters</h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500">
-            Understanding the impact of refugee experiences is crucial in fostering a more empathetic and just world.
+    <section className="text-gray-600 body-font bg-white py-20">
+      <div className="container px-5 mx-auto max-w-6xl">
+        {/* Section Header - Matching site style */}
+        <div className="text-center mb-16">
+          <h2 className="sm:text-3xl text-2xl font-bold title-font text-gray-900 mb-4">
+            Why It Matters
+          </h2>
+          <p className="text-base sm:text-lg leading-relaxed max-w-2xl mx-auto text-gray-600">
+            Understanding the challenges faced by marginalized communities in Thailand is crucial in fostering an inclusive and equitable society.
           </p>
           <div className="flex mt-6 justify-center">
             <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
           </div>
         </div>
-  
-        <div className="flex flex-wrap justify-center">
-          {/* Card 1 */}
-          <div className="p-2 lg:w-1/3 sm:w-1/2 w-full  flex flex-col text-center items-center ">
-            <div className="bg-gray-200 border-2 shadow-2xl p-3 rounded ">
-              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-                {/* Icon */}
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                  strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                  className="icon" viewBox="0 0 24 24">
-                  <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z" />
-                  <circle cx="12" cy="12" r="3" />
-                  <path d="M12 1v2" />
-                  <path d="M12 21v2" />
-                  <path d="M4.22 4.22l1.42 1.42" />
-                  <path d="M18.36 18.36l1.42 1.42" />
-                  <path d="M1 12h2" />
-                  <path d="M21 12h2" />
-                  <path d="M4.22 19.78l1.42-1.42" />
-                  <path d="M18.36 5.64l1.42-1.42" />
-                </svg>
+
+        {/* Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {cards.map((card, idx) => (
+            <div
+              key={idx}
+              className="bg-white border border-gray-200 rounded-2xl p-8 flex flex-col items-center text-center shadow-sm hover:shadow-md hover:border-indigo-300 transition-all duration-300 group"
+            >
+              <div className="w-16 h-16 inline-flex items-center justify-center rounded-full bg-indigo-50 text-indigo-600 group-hover:bg-indigo-500 group-hover:text-white mb-6 transition-colors duration-300 flex-shrink-0">
+                {card.icon}
               </div>
-              <div className="flex-grow">
-                <h2 className="text-gray-900 text-lg title-font font-medium mb-3 ">Increased Awareness</h2>
-                <p className="leading-relaxed text-base">
-                  Amplifying refugee voices educates the public on the realities of displacement.
-                </p>
-              </div>
-            </div>
-          </div>
-  
-          {/* Card 2 */}
-          <div className="p-2 lg:w-1/3 sm:w-1/2 w-full flex flex-col text-center items-center">
-          <div className="bg-gray-200 border-2 shadow-2xl p-3 rounded">
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                className="icon" viewBox="0 0 24 24">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M8 12c1.5 2 3.5 2 5 0" />
-                <path d="M9 10c1-1 2-1 3 0" />
-                <path d="M10 8c0.5-1 1.5-1 2 0" />
-                <path d="M2 12h20" />
-                <path d="M12 2a10 10 0 0 1 0 20" />
-              </svg>
-            </div>
-            <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Global Solidarity</h2>
-              <p className="leading-relaxed text-base">
-                Connecting individuals across borders to support refugee communities.
+              <h3 className="text-gray-900 text-xl font-bold mb-3">
+                {card.title}
+              </h3>
+              <p className="leading-relaxed text-gray-600 text-base">
+                {card.description}
               </p>
             </div>
-            </div>
-          </div>
-  
-          {/* Card 3 */}
-          <div className="p-2 lg:w-1/3 sm:w-1/2 w-full flex flex-col text-center items-center ">
-            <div className='bg-gray-200 p-3 rounded border-2 shadow-2xl'>
-            <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                className="icon" viewBox="0 0 24 24">
-                <path d="M8 13v-2a1 1 0 0 1 1-1h2V9a1 1 0 0 1 2 0v1h1a1 1 0 0 1 1 1v2" />
-                <path d="M8 13v3a3 3 0 0 0 3 3h2a3 3 0 0 0 3-3v-3" />
-                <path d="M6 6l1 1" />
-                <path d="M18 6l-1 1" />
-                <path d="M12 2v2" />
-              </svg>
-            </div>
-            <div className="flex-grow">
-              <h2 className="text-gray-900 text-lg title-font font-medium mb-3">Empowerment and Change</h2>
-              <p className="leading-relaxed text-base">
-                Inspiring action to create positive change in policies and attitudes.
-              </p>
-            </div>
-            </div>
-          </div>
-  
+          ))}
         </div>
       </div>
     </section>
-  </div>
-  
-  )
+  );
 }

@@ -113,16 +113,16 @@ export default function Fullv() {
             width: '100%',
             height: '100%',
           }}
-          title="MAP Refugee Interview"
+          title="MAP Marginalized Community Interview"
         />
       </div>
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-        Supporting Refugees in Thailand: Insights from the MAP Foundation Interview
+        Supporting Marginalized Communities in Thailand: Insights & Action
       </h1>
       <p className="mb-8 leading-relaxed">
-        In this episode, the Displaced Voice Network features a powerful discussion with the MAP Foundation, highlighting the struggles and resilience of migrant and refugee communities in Thailand. Discover the initiatives being undertaken to ensure dignity, rights, and a voice for the displaced.
+        In this episode, the Displaced Voice Network features a powerful discussion highlighting the struggles, resilience, and rights of marginalized communities in Thailand. Discover the initiatives being undertaken to ensure dignity, equity, and a strong voice for underrepresented populations.
       </p>
       <div className="flex justify-center">
         <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
