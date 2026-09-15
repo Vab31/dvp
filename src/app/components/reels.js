@@ -50,7 +50,7 @@ export default function Reels() {
           <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-5 py-24">
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-12 md:mb-0">
               <h1 className="title-font text-2xl sm:text-3xl sm:mr-2 mr-0 sm:mb-4 my-2 font-bold text-gray-900">
-                Advocating for Marginalized Community Rights in Thailand: Tanyakorn
+                Advocating for Refugee Communities in Thailand: Tanyakorn
                 Thippayapokin | Social Justice & Community Advocacy Coordinator
                 <br className="hidden lg:inline-block" />
               </h1>
@@ -159,7 +159,7 @@ export default function Reels() {
               justice, legal accessibility, and community impact across Thailand.
             </p>
             <div className="flex justify-center">
-       
+
             </div>
           </div>
         </div>
@@ -167,43 +167,43 @@ export default function Reels() {
 
 
       <section className="text-gray-600 body-font bg-white" data-aos="fade-right">
-  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    {/* TEXT SECTION - LEFT SIDE */}
-    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-        Building Resilient Futures for Marginalized Communities and Youth:
-       
-       Gavin David White
-      </h1>
-      <p className="mb-8 leading-relaxed">
-        Gavin David White is a humanitarian and social impact professional with
-        over 20 years of experience working across Asia. He works alongside international
-        organizations, government initiatives, and local NGOs to strengthen community
-        resilience, social protection, and youth empowerment for vulnerable populations in Thailand. <br /> <br />
-       
-      </p>
-      <div className="flex justify-center"></div>
-    </div>
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          {/* TEXT SECTION - LEFT SIDE */}
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              Building Resilient Futures for Communities and Youth:
 
-    {/* VIDEO SECTION - RIGHT SIDE */}
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
-      <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
-        {/* 16:9 Aspect Ratio */}
-        <iframe
-          src="https://drive.google.com/file/d/1hchcZLQCpv5xKhMHfTDPRGOhVipau5DE/preview"
-          // src="https://drive.google.com/file/d/1A0gF1k4-eC_m9Edo8KSrivFX9SCJdtix/preview"
-          allow="autoplay"
-          className="absolute top-0 left-0 w-full h-full rounded"
-          title="Gavin David White Video"
-        ></iframe>
-      </div>
-    </div>
-  </div>
-</section>
+              Gavin David White
+            </h1>
+            <p className="mb-8 leading-relaxed">
+              Gavin David White is a humanitarian and social impact professional with
+              over 20 years of experience working across Asia. He works alongside international
+              organizations, government initiatives, and local NGOs to strengthen community
+              resilience, social protection, and youth empowerment for vulnerable populations in Thailand. <br /> <br />
+
+            </p>
+            <div className="flex justify-center"></div>
+          </div>
+
+          {/* VIDEO SECTION - RIGHT SIDE */}
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              {/* 16:9 Aspect Ratio */}
+              <iframe
+                src="https://drive.google.com/file/d/1hchcZLQCpv5xKhMHfTDPRGOhVipau5DE/preview"
+                // src="https://drive.google.com/file/d/1A0gF1k4-eC_m9Edo8KSrivFX9SCJdtix/preview"
+                allow="autoplay"
+                className="absolute top-0 left-0 w-full h-full rounded"
+                title="Gavin David White Video"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
- <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
+      <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
             <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
@@ -226,8 +226,59 @@ export default function Reels() {
               A powerful conversation on community integration, uplifting underrepresented populations, and the human stories behind social development. Join Sreeraj Rajmohan as he shares insights from working closely with grassroots communities and discusses how empathy, storytelling, and local action create lasting social impact.
             </p>
             <div className="flex justify-center">
-       
+
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Paranut (Alexander) Juntree */}
+      <section className="text-gray-600 body-font bg-gray-100" data-aos="fade-right">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              Youth Leadership, Human Rights & Global Diplomacy: Paranut (Alexander) Juntree
+            </h1>
+            <p className="mb-8 leading-relaxed">
+              Paranut (Alexander) Juntree served as the 2023 Thailand Youth Delegate to the United Nations General Assembly (UNGA78) and is a Diplomat at the Ministry of Foreign Affairs, Thailand. As a Youth Advisor at UNICEF Thailand and Thailand Correspondent for The ASEAN Frontier, Alexander shares critical insights on youth participation in policy making, ethical AI governance, human rights, and raising awareness against human trafficking and forced labor scam center networks in Southeast Asia.
+            </p>
+            <div className="flex justify-center"></div>
+          </div>
+
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              <iframe
+                src="https://drive.google.com/file/d/1apQ5uK7YsxP1dpJ-62-0yjg7Zr4FO0oh/preview"
+                allow="autoplay"
+                className="absolute top-0 left-0 w-full h-full rounded shadow-md"
+                title="Paranut (Alexander) Juntree Podcast"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Afsana */}
+      <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              <iframe
+                src="https://drive.google.com/file/d/1VWb1HFp-2y8ymJ07-mU2uHnkghWBquWD/preview"
+                allow="autoplay"
+                className="absolute top-0 left-0 w-full h-full rounded shadow-md"
+                title="Afsana Interview Video"
+              ></iframe>
+            </div>
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              Resilience, Rights & Lived Realities: Afsana's Story
+            </h1>
+            <p className="mb-8 leading-relaxed">
+              In this impactful episode, Afsana shares her powerful journey, highlighting the lived experiences, strength, and grassroots advocacy of marginalized communities in Thailand. Discover how personal narratives, community support systems, and active listening drive empathy, understanding, and meaningful social change.
+            </p>
+            <div className="flex justify-center"></div>
           </div>
         </div>
       </section>

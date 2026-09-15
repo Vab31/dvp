@@ -27,7 +27,7 @@
 //       >
 //         {images.map((src, index) => (
 //           <SwiperSlide key={index} className="flex justify-center items-center h-full">
-            
+
 //             <img
 //               src={src}
 //               alt={`Slide ${index + 1}`}
@@ -106,7 +106,7 @@ const HeroSlider = () => {
   const slides = [
     { src: '/images/slide1.jpeg', text: 'Voices of Thailand — Empowering Marginalized Communities' },
     { src: '/images/slide2.jpeg', text: 'From Struggle to Strength — Documenting Resilience in Vulnerable Communities' },
-    { src: '/images/slide3.jpeg', text: 'Lived Realities, Shared Hope — A Lens Into Inclusion and Equity in Thailand' },
+    { src: '/images/slide3.jpeg', text: 'Lived Realities, Shared Hope — A Lens Into Inclusion and Equity' },
   ];
 
   return (

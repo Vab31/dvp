@@ -16,7 +16,7 @@
 //             <h1 className="text-white text-4xl sm:text-6xl font-bold mb-4">
 //               "Everyone Deserves Peace"
 //             </h1>
-     
+
 //           </div>
 //         </div>
 //       </div>
@@ -66,7 +66,7 @@ export default function Us() {
             Our Core Belief
           </span>
           <h1 className="text-white text-4xl sm:text-6xl font-extrabold tracking-tight max-w-4xl italic leading-tight">
-            "Equal Opportunity & Dignity for All Communities"
+            "Everyone Deserves Peace"
           </h1>
           <div className="mt-6 w-20 h-1 bg-amber-500 rounded-full"></div>
         </div>
@@ -74,7 +74,7 @@ export default function Us() {
 
       {/* Main Content Container */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-10 pb-24">
-        
+
         {/* Brand / Mission Header Card */}
         <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-12 text-center border border-gray-100">
           <h2 className="sm:text-4xl text-3xl font-black tracking-tight text-gray-900 mb-4">
@@ -84,7 +84,10 @@ export default function Us() {
 
           {/* Subtitle / Intro Hook */}
           <p className="text-xl font-medium text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12">
-            We are a platform dedicated to raising awareness about the struggles, resilience, and rights of marginalized communities in Thailand. Our mission is to build empathy, spark meaningful dialogue, and drive action toward a more inclusive and supportive society.
+            {/* We are a platform dedicated to raising awareness about the real-life struggles and strength of refugees. Our mission is to build empathy, spark important conversations, and drive action toward a more inclusive and supportive society. */}
+            We are a platform dedicated to raising awareness about the real-life struggles and resilience of marginalised communities. Our mission is to build empathy, spark meaningful conversations, and drive action toward a more inclusive and supportive society.
+
+
           </p>
 
           <hr className="border-gray-100 my-10" />
@@ -97,7 +100,10 @@ export default function Us() {
                 Amplifying Through Media
               </h3>
               <p>
-                Through our platform and discussions, we bring together a diverse range of voices—from local community members sharing personal experiences, to grassroots activists, social workers, and policymakers actively working to uplift marginalized Thai communities.
+                {/* Through our podcast, we bring together a diverse range of voices—from refugees who share their personal journeys, to activists, social workers, and policymakers who are actively working to improve refugee welfare. */}
+                Through our podcast, we bring together a diverse range of voices—from members of marginalised communities who share their personal experiences, to activists, social workers, and policymakers working to promote inclusion, equality, and community well-being.
+
+
               </p>
             </div>
             <div className="space-y-4">
@@ -106,7 +112,10 @@ export default function Us() {
                 Driving Real Change
               </h3>
               <p>
-                These conversations shed light on structural challenges and policy gaps while exploring actionable solutions to empower underrepresented populations. By amplifying these stories, we aim to inspire action, foster understanding, and advance social justice across Thailand.
+                {/* These conversations not only shed light on the challenges faced by displaced communities but also explore practical solutions and policies that can help uplift them. By amplifying these stories, we aim to inspire change, promote understanding, and contribute to the global movement for refugee rights and dignity. */}
+                These conversations not only shed light on the challenges faced by marginalised communities but also explore practical solutions and policies that can help empower and uplift them. By amplifying these stories, we aim to inspire change, promote understanding, and contribute to a more inclusive society where every individual is treated with dignity, equality, and respect.
+
+
               </p>
             </div>
           </div>
