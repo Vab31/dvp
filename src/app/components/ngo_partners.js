@@ -66,7 +66,7 @@ export default function NgoPartners() {
               {/* Key Focus Highlights */}
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-gray-50 p-3 rounded-lg border border-gray-100">
-                  <span className="block text-sm font-semibold text-gray-900">🎓 Refugee Education</span>
+                  <span className="block text-sm font-semibold text-gray-900">🎓 Education</span>
                   <span className="text-xs text-gray-500">Learning support & school transportation</span>
                 </div>
                 <div className="bg-gray-50 p-3 rounded-lg border border-gray-100">
