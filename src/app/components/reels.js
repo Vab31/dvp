@@ -271,6 +271,32 @@ export default function Reels() {
         </div>
       </section>
 
+      {/* Section: Friso Cornelis Poldervaart */}
+      <section className="text-gray-600 body-font bg-gray-100" data-aos="fade-right">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+              Community Leadership & Grassroots Impact: Friso Cornelis Poldervaart
+            </h1>
+            <p className="mb-8 leading-relaxed">
+              Friso Cornelis Poldervaart is an innovative entrepreneur and passionate community advocate. As Co-Founder of the Bangkok Community Help Foundation and Center of Dreams Bangkok's first NGO run homeless shelter Friso works on the front lines in Khlong Toei and low-income communities across Bangkok. In this episode, he discusses food distribution initiatives that have served over 5.3 million meals, youth AI literacy programs, homelessness rehabilitation, and building sustainable community partnerships.
+            </p>
+            <div className="flex justify-center"></div>
+          </div>
+
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
+            <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
+              <iframe
+                src="https://drive.google.com/file/d/1NQlH07PN3NDzBRMHuABdztvcbHKDQH1N/preview"
+                allow="autoplay"
+                className="absolute top-0 left-0 w-full h-full rounded shadow-md"
+                title="Friso Cornelis Poldervaart Podcast Video"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* {showForm && (
   <div>
     <h2 className="text-xl font-semibold mb-4 text-gray-800">Enter your email to continue</h2>
