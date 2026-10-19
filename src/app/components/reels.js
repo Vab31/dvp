@@ -1,18 +1,9 @@
 "use client";
 
-import React, { use } from "react";
-import { useEffect, useState } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function Reels() {
-  useEffect(() => {
-    AOS.init({
-      duration: 2500,
-    });
-  });
-
   const [email, setEmail] = useState("");
   const [showForm, setShowForm] = useState(false);
   const router = useRouter();
@@ -21,32 +12,27 @@ export default function Reels() {
     router.push("/fullvideo");
   };
 
-  const handleSubmit = async (e) => {
-    //     console.log("hellow this  who")
-    // //     console.log("inside prject look into it")
-    //     e.preventDefault();
-    //     const res = await fetch(`https://dvbe.vercel.app/save-email`, {
-    //       method: 'POST',
-    //       body: JSON.stringify({ email }),
-    //       headers: { 'Content-Type': 'application/json' },
-    //     });
-    // router.push('/fullvideo');
-    // console.log(res)
-    // if (res.ok) {
-    //   localStorage.setItem('user_email', email);
-    // } else {
-    //   alert('Something went wrong!');
-    // }
-  };
-
   return (
-    <div>
+    <div id="podcasts">
+      {/* Section Header */}
+      <div className="text-center pt-20 pb-6 bg-gray-50 border-t border-gray-200">
+        <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold tracking-wider text-indigo-700 bg-indigo-100 uppercase mb-4 border border-indigo-200">
+          Podcasts & Conversations
+        </span>
+        <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight mb-4">
+          Voices & Stories from the Field
+        </h2>
+        <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-5">
+          In-depth discussions with community advocates, grassroots leaders, and changemakers advancing social justice, forestry, and rights in Thailand.
+        </p>
+        <div className="flex mt-6 justify-center">
+          <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+        </div>
+      </div>
+
       <div>
         {/* Section 1 */}
-        <section
-          className="text-gray-600 bg-gray-200 body-font"
-          data-aos="fade-right"
-        >
+        <section className="text-gray-600 bg-gray-100 body-font">
           <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-5 py-24">
             <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-12 md:mb-0">
               <h1 className="title-font text-2xl sm:text-3xl sm:mr-2 mr-0 sm:mb-4 my-2 font-bold text-gray-900">
@@ -128,7 +114,7 @@ export default function Reels() {
 
       {/* left */}
 
-      <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
+      <section className="text-gray-600 body-font bg-white">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
             <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
@@ -158,7 +144,7 @@ export default function Reels() {
       </section>
 
 
-      <section className="text-gray-600 body-font bg-white" data-aos="fade-right">
+      <section className="text-gray-600 body-font bg-gray-50">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           {/* TEXT SECTION - LEFT SIDE */}
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -191,7 +177,7 @@ export default function Reels() {
 
 
 
-      <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
+      <section className="text-gray-600 body-font bg-white">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
             <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
@@ -221,7 +207,7 @@ export default function Reels() {
       </section>
 
       {/* Section: Paranut (Alexander) Juntree */}
-      <section className="text-gray-600 body-font bg-gray-100" data-aos="fade-right">
+      <section className="text-gray-600 body-font bg-gray-50">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -247,7 +233,7 @@ export default function Reels() {
       </section>
 
       {/* Section: Afsana */}
-      <section className="text-gray-600 body-font bg-white" data-aos="fade-left">
+      <section className="text-gray-600 body-font bg-white">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
             <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
@@ -272,7 +258,7 @@ export default function Reels() {
       </section>
 
       {/* Section: Friso Cornelis Poldervaart */}
-      <section className="text-gray-600 body-font bg-gray-100" data-aos="fade-right">
+      <section className="text-gray-600 body-font bg-gray-50">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -293,6 +279,46 @@ export default function Reels() {
                 title="Friso Cornelis Poldervaart Podcast Video"
               ></iframe>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Chandra Silori */}
+      <section className="text-gray-600 body-font bg-white">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          {/* Video Player Side */}
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+            <div className="relative w-full rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-slate-900" style={{ paddingTop: "56.25%" }}>
+              <iframe
+                src="https://drive.google.com/file/d/1aDKeckDNliR8n3U1xJP4Pk-cqE3E5r2F/preview"
+                allow="autoplay; fullscreen; picture-in-picture"
+                className="absolute top-0 left-0 w-full h-full rounded"
+                title="Podcast with Chandra Silori"
+              ></iframe>
+            </div>
+          </div>
+
+          {/* Description & Bio Side */}
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            {/* Organization Tag & Logo Badge */}
+            <div className="flex items-center gap-3 mb-4 bg-emerald-50 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+              <img
+                src="/images/thai-uttarakhand-association.png"
+                alt="Thai - Uttarakhand Association Logo"
+                className="w-7 h-7 object-contain rounded-full"
+              />
+              <span className="text-xs font-bold text-emerald-800 uppercase tracking-wider">
+                Thai - Uttarakhand Association
+              </span>
+            </div>
+
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 leading-tight">
+              Participatory Forestry, Climate Action & Community Empowerment: Chandra Silori
+            </h1>
+
+            <p className="mb-6 leading-relaxed text-gray-600 text-base sm:text-lg">
+              In this insightful conversation, Chandra Silori shares his extensive experience in participatory forestry, climate change adaptation, and biodiversity conservation across Southeast Asia. As President of the Thai - Uttarakhand Association and Senior Leader at RECOFTC (The Center for People and Forests), he discusses the vital role of grassroots community governance, empowering local populations, and uniting diaspora initiatives to create lasting environmental and social impact in Thailand.
+            </p>
           </div>
         </div>
       </section>

@@ -8,7 +8,7 @@ export default function Nav() {
 
           {/* Logo - centered on mobile, left on desktop */}
           <div className="w-full md:w-auto flex justify-center md:justify-start mb-4 md:mb-0">
-            <a className="flex title-font font-medium items-center text-gray-900">
+            <a href="/" className="flex title-font font-medium items-center text-gray-900 cursor-pointer">
               <img
                 src="/images/logo.png"
                 alt="DVP logo"
@@ -19,9 +19,9 @@ export default function Nav() {
 
           {/* Navigation Links */}
           <nav className="flex flex-wrap items-center text-base justify-center md:justify-start w-full md:w-auto">
-            <a className="mr-5 hover:text-gray-900" href="/home">Home</a>
+            <a className="mr-5 hover:text-gray-900" href="/">Home</a>
             <a className="mr-5 hover:text-gray-900" href="/us">About Us</a>
-            <a className="mr-5 hover:text-gray-900" href="/ngo">NGO & Partners</a>
+            <a className="mr-5 hover:text-gray-900" href="/#ngo-partners">NGO & Partners</a>
             {/* <a className="mr-5 hover:text-gray-900" href="/paper">Politics Paper</a> */}
             <a className="mr-5 hover:text-gray-900" href="/journal">Whitepaper</a>
             <a className="mr-5 hover:text-gray-900" href="/chatbot">Ask Question</a>

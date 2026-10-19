@@ -1,18 +1,10 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function NgoPage() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1500,
-    });
-  }, []);
-
   return (
     <div className="bg-gray-50 min-h-screen text-gray-800 antialiased flex flex-col justify-between">
       <div>
@@ -20,7 +12,7 @@ export default function NgoPage() {
 
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-gray-900 via-neutral-800 to-gray-900 text-white py-20 px-6">
-          <div className="max-w-5xl mx-auto text-center" data-aos="fade-down">
+          <div className="max-w-5xl mx-auto text-center">
             <span className="bg-amber-500/20 text-amber-300 text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider border border-amber-400/30 inline-block mb-4">
               NGO & Community Partner Spotlight
             </span>
@@ -40,7 +32,6 @@ export default function NgoPage() {
           {/* Card Overview Section */}
           <div
             className="bg-white rounded-3xl shadow-xl p-8 sm:p-12 mb-16 border border-gray-100 grid lg:grid-cols-12 gap-10 items-center"
-            data-aos="fade-up"
           >
             {/* Logo Display */}
             <div className="lg:col-span-5 flex justify-center">
@@ -71,7 +62,7 @@ export default function NgoPage() {
           </div>
 
           {/* Core Initiatives Section */}
-          <div className="mb-20" data-aos="fade-up">
+          <div className="mb-20">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-extrabold text-gray-900">
                 Key Impact Areas & Programs
@@ -133,7 +124,7 @@ export default function NgoPage() {
           </div>
 
           {/* Community Impact Section - Official Foundation Data */}
-          <div className="mb-16" data-aos="fade-up">
+          <div className="mb-16">
             <div className="text-center mb-12">
               <span className="text-teal-600 font-bold uppercase tracking-widest text-sm">
                 Community Impact
@@ -224,7 +215,7 @@ export default function NgoPage() {
           </div>
 
           {/* Partnership Statement */}
-          <div className="bg-white rounded-2xl p-8 sm:p-12 border border-gray-200 text-center" data-aos="fade-up">
+          <div className="bg-white rounded-2xl p-8 sm:p-12 border border-gray-200 text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
               Displaced Voices Network & Kiiran Care Foundation Partnership
             </h3>
@@ -235,7 +226,7 @@ export default function NgoPage() {
 
             </p>
             <a
-              href="/home"
+              href="/"
               className="inline-block bg-gray-900 hover:bg-amber-600 text-white font-medium px-8 py-3.5 rounded-xl transition duration-300 shadow-md"
             >
               Return to Homepage

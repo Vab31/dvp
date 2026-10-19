@@ -3,18 +3,19 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-        <footer class="text-gray-600 body-font bg-gray-300">
-  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-  <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <footer className="text-gray-600 body-font bg-gray-300">
+        <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <img
               src="/images/logo.png"
               alt="DVP logo"
               className="w-20 h-10 sm:w-24 sm:h-12 md:w-28 md:h-14 lg:w-32 lg:h-16 object-contain"
             />
           </a>
-    <p class="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2025 Displaced Voices Network 
-      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
-    </p>
+          <p className="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+            © 2025 Displaced Voices Network
+            <a href="https://twitter.com/knyttneve" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
+          </p>
     {/* <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a class="text-gray-500">
         <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
