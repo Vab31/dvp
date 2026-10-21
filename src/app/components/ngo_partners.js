@@ -145,16 +145,22 @@ export default function NgoPartners() {
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200 grid md:grid-cols-12 gap-0 items-center">
             {/* Image / Logo Container */}
             <div className="md:col-span-5 bg-blue-50/30 p-8 flex items-center justify-center border-b md:border-b-0 md:border-r border-gray-200 h-full">
-              <div className="relative w-full max-w-xs aspect-square flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-sm border border-blue-100">
+              <a
+                href="https://bangkokcommunityhelp.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative w-full max-w-xs aspect-square flex flex-col items-center justify-center p-6 bg-white rounded-xl shadow-sm border border-blue-100 hover:border-blue-300 transition group cursor-pointer"
+                title="Visit Bangkok Community Help Foundation official website"
+              >
                 <img
                   src="/images/bangkok-community-help.png"
                   alt="Bangkok Community Help Foundation Logo"
                   className="w-40 h-40 object-contain hover:scale-105 transition-transform duration-300"
                 />
-                <span className="mt-3 text-xs font-bold text-blue-900 text-center uppercase tracking-wider">
-                  Bangkok Community Help Foundation
+                <span className="mt-3 text-xs font-bold text-blue-900 text-center uppercase tracking-wider group-hover:text-blue-700 flex items-center gap-1">
+                  Bangkok Community Help Foundation ↗
                 </span>
-              </div>
+              </a>
             </div>
 
             {/* Content Container */}
@@ -168,31 +174,35 @@ export default function NgoPartners() {
                   Bangkok Community Help Foundation
                 </h3>
                 <p className="text-gray-600 text-base leading-relaxed mb-6">
-                  Bangkok Community Help Foundation supports underprivileged communities through ongoing food distribution and community relief initiatives. According to the information provided by our team, the organization has been serving approximately 500–1,000 people in need every day for the past six years, helping address food insecurity and support vulnerable communities.
+                  The Bangkok Community Center began providing food to people during the COVID-19 pandemic and has continued this work ever since, supporting people in the community through ongoing food assistance.
                 </p>
 
                 {/* Key Focus Highlights */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                   <div className="bg-gray-50 p-3.5 rounded-lg border border-gray-100">
-                    <span className="block text-sm font-semibold text-gray-900">🍲 Daily Food Distribution</span>
-                    <span className="text-xs text-gray-500">Serving ~500–1,000 people in need daily</span>
+                    <span className="block text-sm font-semibold text-gray-900">🍲 Food Distribution & Relief</span>
+                    <span className="text-xs text-gray-500">Essential meal support for local communities</span>
                   </div>
                   <div className="bg-gray-50 p-3.5 rounded-lg border border-gray-100">
-                    <span className="block text-sm font-semibold text-gray-900">⏱️ 6+ Years of Outreach</span>
-                    <span className="text-xs text-gray-500">Addressing food insecurity across Bangkok</span>
+                    <span className="block text-sm font-semibold text-gray-900">🤝 Ongoing Community Care</span>
+                    <span className="text-xs text-gray-500">Initiated during COVID-19 and sustained today</span>
                   </div>
                 </div>
-
-                <p className="text-[11px] text-gray-400 italic mb-4">
-                  *Note: Daily meal figures and timeline provided by community team; editable for verification.
-                </p>
               </div>
 
               {/* Action Buttons */}
               <div className="flex flex-wrap gap-4 pt-2">
-                <span className="inline-flex items-center justify-center bg-gray-100 text-gray-800 border border-gray-300 font-medium px-6 py-3 rounded-xl text-sm sm:text-base">
-                  Community Outreach Partner
-                </span>
+                <a
+                  href="https://drive.google.com/file/d/1NQlH07PN3NDzBRMHuABdztvcbHKDQH1N/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-xl transition duration-300 shadow-md text-sm sm:text-base gap-2"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                  Watch Friso Cornelis Poldervaart Podcast &rarr;
+                </a>
               </div>
             </div>
           </div>

@@ -26,7 +26,13 @@ export default function PoliticsPaperPage() {
             </div>
 
             {/* Quick Action Controls */}
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
+              <a
+                href="/journal"
+                className="bg-white/10 hover:bg-white/20 text-white border border-white/20 font-medium px-4 py-2.5 rounded-xl transition duration-200 text-sm flex items-center gap-2"
+              >
+                ← All Research
+              </a>
               <a
                 href="/Saira-Gulati-Politics-3.pdf"
                 download="Saira-Gulati-Politics-Paper.pdf"

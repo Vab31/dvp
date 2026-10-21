@@ -261,13 +261,33 @@ export default function Reels() {
       <section className="text-gray-600 body-font bg-gray-50">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            {/* Organization Tag & Logo Badge */}
+            <a
+              href="https://bangkokcommunityhelp.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 mb-4 bg-blue-50 hover:bg-blue-100 border border-blue-200 px-3.5 py-1.5 rounded-full transition-colors duration-200 group cursor-pointer"
+              title="Visit Bangkok Community Help Foundation official website"
+            >
+              <img
+                src="/images/bangkok-community-help.png"
+                alt="Bangkok Community Help Foundation Logo"
+                className="w-7 h-7 object-contain rounded-full"
+              />
+              <span className="text-xs font-bold text-blue-900 uppercase tracking-wider group-hover:text-blue-700 flex items-center gap-1.5">
+                Bangkok Community Help Foundation
+                <svg className="w-3.5 h-3.5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </span>
+            </a>
+
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 leading-tight">
               Community Leadership & Grassroots Impact: Friso Cornelis Poldervaart
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-6 leading-relaxed text-gray-600 text-base sm:text-lg">
               Friso Cornelis Poldervaart is an innovative entrepreneur and passionate community advocate. As Co-Founder of the Bangkok Community Help Foundation and Center of Dreams Bangkok's first NGO run homeless shelter Friso works on the front lines in Khlong Toei and low-income communities across Bangkok. In this episode, he discusses food distribution initiatives that have served over 5.3 million meals, youth AI literacy programs, homelessness rehabilitation, and building sustainable community partnerships.
             </p>
-            <div className="flex justify-center"></div>
           </div>
 
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
